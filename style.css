@@ -1,6 +1,10 @@
+html{
+    height: 100%;
+}
 body{
     font-family: 'Poppins',sans-serif;
     margin: 0;
+    min-height: 100%;
 
 }
 h1{
@@ -12,10 +16,14 @@ h2{
 .blue-color{
     color: #4071f4;
 }
-.top-section-slic{
+.top-padding{
     border-left: 4px solid;
-    border-image: linear-gradient(tomato, tomato);
-    border-image-slice: 1;  
+    /* border-image: linear-gradient(tomato, tomato); */
+    border-color: cadetblue;
+    line-height: 30px;
+    padding-top: 80px;
+    
+    
 }
 .flexible-container{
     display: flex;
@@ -43,7 +51,8 @@ h2{
 /*Mission 2022 Section Start from here*/
 .top-padding{
     padding-top: 50px;
-    line-height: 0px;
+    line-height: 15px;
+    
 }
 .Mission-width{
    
@@ -80,6 +89,19 @@ h2{
 .img-padding{
     padding-left: 2%;
     padding-top: 5%;
+}
+.coding-section{
+    background-image: url(images/shapes/shape-1.png);
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.project-section{
+    background-image: url(images/shapes/shape-1.png);
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 0%;
 }
 /*Mission 2022 Section End is here*/
 
@@ -119,6 +141,25 @@ h2{
     border-image-slice: 1;   
 }
 */
+/* footer{
+    background-color: yellow;
+}
+footer h2{
+    text-align: center;
+    font-style: white;
+}
 footer p{
     text-align: center;
+    font-style: white;
+} */
+/* Footer Section Start from here */
+.footer-section{
+    text-align: center;
+    background-color: #0b0d17;
+    color: white;
+    padding:10px 0px 15px 0px;
 }
+.footer-section span{
+    color: #4071f4;
+}
+/* Footer Section End */
