@@ -2,9 +2,15 @@ html{
     height: 100%;
 }
 body{
+    font-family: 'Lobster', cursive;
     font-family: 'Poppins',sans-serif;
-    margin: 0;
+    margin: 0px;
     min-height: 100%;
+    /* overflow-x: hidden; */
+
+}
+section{
+    /* display: flex; */
 
 }
 h1{
@@ -19,10 +25,7 @@ h2{
 .top-padding{
     border-left: 4px solid;
     /* border-image: linear-gradient(tomato, tomato); */
-    border-color: cadetblue;
-    line-height: 30px;
-    padding-top: 80px;
-    
+    border-color: #4071f4;
     
 }
 .flexible-container{
@@ -34,7 +37,7 @@ h2{
 .half-width{
     width: 50%;
     float: left;
-    margin-left: 2%;
+    margin-left: 2;
     padding-left: 2%;
 }
 .half-width img{
@@ -43,15 +46,15 @@ h2{
 .link-button{
     text-decoration: none;
     background-color: #4071f4;
-    padding: 10px 40px;
+    padding: 5px 15px;
     color: white;
-    font-weight: 700;
+    font-weight: 200;
     border-radius: 5px;
 }
 /*Mission 2022 Section Start from here*/
 .top-padding{
-    padding-top: 50px;
-    line-height: 15px;
+    padding-top: 0px;
+    line-height: 35px;
     
 }
 .Mission-width{
@@ -65,6 +68,7 @@ h2{
     width: 20%;
 }
 .Mission-2022{
+    margin-top: -80px;
     margin-left: 3%;
     margin-right: 3%;
 }
@@ -76,11 +80,20 @@ h2{
     margin-left: 0%;
     background-color: #EDF5F6;
 }
+.Mission h2{
+    margin: 0px;
+}
 .Vission{
     background-color: #ffeeee;
 }
+.Vission h2{
+    margin: 0px;
+}
 .Goals{
     background-color: #fff4d6;
+}
+.Goals h2{
+    margin: 0px;
 }
 .for-padding{
     padding-left: 3%;
@@ -96,68 +109,113 @@ h2{
     background-repeat: no-repeat;
     background-position: left;
 }
+.coding-content{
+    padding-top: 60px;
+    margin-left: -250px;
+}
+.coding-content p{
+    width: 700px;
+}
+.coding-content h2{
+    margin: 0px;
+}
 .project-section{
+    
     background-image: url(images/shapes/shape-1.png);
     background-size: 15%;
+    background-position-y: 0%;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: bottom -25px right 100px;
     padding-right: 0%;
 }
+.project-section img{
+    margin-left: 100px;
+}
+.project-content{
+    padding-top: 60px;
+}
+.project-content h2{
+    margin: 0px;
+}
+.project-content p{
+    width: 700px;
+}
+
 /*Mission 2022 Section End is here*/
 
+/* Contact Us section start from here */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    margin: 5vh auto;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 0 15px #4071f4;
 
- /*
-.top-section{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
 }
 
-.dream-bg{
-    background-image: url(imageS/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
 }
-.experience-area{
-    background-image: url(images/exp-bg.png);
-    background-repeat: no-repeat;
-    background-position: left;
-}
-.experience-item{
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-left: 15px;
-    border-radius: 10px;
-    box-shadow: 10px 15px 40px black;
-}
-#web-dev-experience{
-    border-left: 7px solid;
-    border-image: linear-gradient(blue,cyan);
-    border-image-slice: 1;
-}
-#full-stack-experience{
-    border-left: 7px solid;
-    border-image: linear-gradient(blue,tomato);
-    border-image-slice: 1;   
-}
-*/
-/* footer{
-    background-color: yellow;
-}
-footer h2{
+
+input {
+    width: 100%;
+    margin: 5px 0;
+    height: 35px;
+    font-size: 17px;
     text-align: center;
-    font-style: white;
+    outline: none;
+    border-radius: 15px;
+    border: none;
+    background: rgb(235, 228, 228);
 }
-footer p{
+
+textarea {
+    width: 100%;
+    margin: 5px 0;
+    font-size: 17px;
     text-align: center;
-    font-style: white;
-} */
+    outline: none;
+    border-radius: 15px;
+    border: none;
+    background: rgb(235, 228, 228);
+}
+input[type=submit]{
+    margin: 10px auto;
+    width: 120px;
+    background: #4071f4;
+    color: white;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+background: tomato;
+}
+@media screen and (max-width:900px) {
+        .container{
+        width: 100%;
+    }
+}
+.Contact-us{
+    text-align: center;
+}
+/* contact us section end from here */
+
 /* Footer Section Start from here */
 .footer-section{
+    font-family: Lobster;
     text-align: center;
     background-color: #0b0d17;
     color: white;
     padding:10px 0px 15px 0px;
+}
+.footer-section p{
+    font-family: poppin;
 }
 .footer-section span{
     color: #4071f4;
